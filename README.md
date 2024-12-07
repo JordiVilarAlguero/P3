@@ -52,6 +52,9 @@ Ejercicios básicos
 	    Recuerde configurar los paneles de datos para que el desplazamiento de ventana sea el adecuado, que
 		en esta práctica es de 15 ms.
 
+      En la siguiente imagen se puede observar en la parte superior el archivo prueba.f0red el cual tiene unos puntos verdes, despues debajo se encuentra la grafica de prueba.f0, la potencia y la waveform.
+    ![alt text](Image/img4.png)
+
       - Use el estimador de pitch implementado en el programa `wavesurfer` en una señal de prueba y compare
 	    su resultado con el obtenido por la mejor versión de su propio sistema.  Inserte una gráfica
 		ilustrativa del resultado de ambos estimadores.

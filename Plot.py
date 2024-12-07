@@ -5,14 +5,14 @@ from scipy.signal import correlate
 
 
 # Leer archivo
-freq, data = wavfile.read("prueba.wav")
+freq, data = wavfile.read("pav_418.wav")
 
 #Normalizar la señal
 if data.dtype == np.int16:
     data = data / 32768.0
 
 segmento = 30#30 ms
-t0 = 0.9 # Tiempo inicial
+t0 = 0.600 # Tiempo inicial
 tf = t0 + 0.03 # el tiempo inicial mas los 30 ms
 
 inicial = int(t0 * freq) #samples iniciales
