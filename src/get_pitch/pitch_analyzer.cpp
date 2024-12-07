@@ -56,7 +56,7 @@ namespace upc {
     /// \TODO Implement a rule to decide whether the sound is voiced or not.
     /// * You can use the standard features (pot, r1norm, rmaxnorm),
     ///   or compute and use other ones.
-    if (rmaxnorm < this -> llindar_rmax){
+    if (rmaxnorm < this -> llindar_rmax || pot < this -> llindar_pot || r1norm < this -> llindar_r1norm){
       return true;
     }
 
