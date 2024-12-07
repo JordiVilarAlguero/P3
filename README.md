@@ -53,7 +53,7 @@ Ejercicios básicos
 		en esta práctica es de 15 ms.
 
       En la siguiente imagen se puede observar en la parte superior el archivo prueba.f0red el cual tiene unos puntos verdes, despues debajo se encuentra la grafica de prueba.f0, la potencia y la waveform.
-    ![alt text](Image/img4.png)
+    ![alt text](Image/img5.png)
 
       - Use el estimador de pitch implementado en el programa `wavesurfer` en una señal de prueba y compare
 	    su resultado con el obtenido por la mejor versión de su propio sistema.  Inserte una gráfica
