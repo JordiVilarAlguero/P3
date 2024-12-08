@@ -76,8 +76,13 @@ Ejercicios de ampliación
   una parte importante de la evaluación recaerá en el resultado obtenido en la estimación de pitch en la
   base de datos.
 
+  En la siguiente imagen se muestra las modificaciones que se realizaron en el programa para poder incorporar el mensaje de ayuda. Además se agregaron cuales son los parametros iniciales por defecto.
+  ![alt text](Image/img7.png)
+
   * Inserte un *pantallazo* en el que se vea el mensaje de ayuda del programa y un ejemplo de utilización
     con los argumentos añadidos.
+    Así queda nuestro mensaje de ayuda una vez se manda a llamar en línea de comandos.
+    ![alt text](Image/img6.png)
 
 - Implemente las técnicas que considere oportunas para optimizar las prestaciones del sistema de estimación
   de pitch.
