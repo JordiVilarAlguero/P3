@@ -31,9 +31,15 @@ namespace upc {
     window.resize(frameLen);
 
     switch (win_type) {
-    case HAMMING:
-      /// \TODO Implement the Hamming window
-      break;
+    case HAMMING: {       // Implementa la finestra de Hamming
+    /// \TODO Implement the Hamming window
+    float a0 = 0.53836F;   // Coeficient a_0
+    float a1 = 0.46164F;   // Coeficient a_1
+    for (unsigned int i = 0; i < frameLen; ++i) {
+        window[i] = a0 - a1 * cos((2 * M_PI * i) / (frameLen - 1));
+    }
+} break;
+
     case RECT:
     default:
       window.assign(frameLen, 1);

@@ -61,10 +61,30 @@ Ejercicios básicos
      
 		Aunque puede usar el propio Wavesurfer para obtener la representación, se valorará
 	 	el uso de alternativas de mayor calidad (particularmente Python).
+
+    ![alt text](image.png)
+
+    Para obtener esta comparativa hemos hecho un programa con python. Los paquetes usados han sido matplotlib y numpy.
+
+    ![alt text](<Image/Captura de pantalla 2024-12-08 204640.png>)
+    
   
   * Optimice los parámetros de su sistema de estimación de pitch e inserte una tabla con las tasas de error
     y el *score* TOTAL proporcionados por `pitch_evaluate` en la evaluación de la base de datos 
 	`pitch_db/train`..
+
+### Summary
+
+| **Metric**                            | **Value**              |
+|---------------------------------------|------------------------|
+| **Num. frames**                       | 11200 = 7045 unvoiced + 4155 voiced |
+| **Unvoiced frames as voiced**         | 198/7045 (2.81 %)      |
+| **Voiced frames as unvoiced**         | 744/4155 (17.91 %)     |
+| **Gross voiced errors (+20.00 %)**    | 25/3411 (0.73 %)       |
+| **MSE of fine errors**                | 2.01 %                 |
+| **TOTAL**                             | 88.72 %                |
+
+
 
 Ejercicios de ampliación
 ------------------------
