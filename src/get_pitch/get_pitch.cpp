@@ -26,6 +26,8 @@ Usage:
 
 Options:
     --llindar-rmax FLOAT  llindar de decisio sonor, sord per a rmax [default: 0.5]
+    --llindar-pot FLOAT  llindar de decisio sonor, sord per a pot [default: -45]
+    --llindar-r1norm FLOAT  llindar de decisio sonor, sord per a r1norm [default: 0.75]
     -h, --help  Show this screen
     --version   Show the version of the project
 
