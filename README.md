@@ -73,16 +73,19 @@ Ejercicios básicos
     y el *score* TOTAL proporcionados por `pitch_evaluate` en la evaluación de la base de datos 
 	`pitch_db/train`..
 
+
+
 ### Summary
 
 | **Metric**                            | **Value**              |
 |---------------------------------------|------------------------|
 | **Num. frames**                       | 11200 = 7045 unvoiced + 4155 voiced |
-| **Unvoiced frames as voiced**         | 172/7045 (2.44 %)      |
-| **Voiced frames as unvoiced**         | 755/4155 (18.17 %)     |
-| **Gross voiced errors (+20.00 %)**    | 23/3400 (0.68 %)       |
-| **MSE of fine errors**                | 1.99 %                 |
-| **TOTAL**                             | 88.87 %                |
+| **Unvoiced frames as voiced**         | 208/7045 (2.95 %)      |
+| **Voiced frames as unvoiced**         | 556/4155 (13.38 %)     |
+| **Gross voiced errors (+20.00 %)**    | 36/3599 (1.00 %)       |
+| **MSE of fine errors**                | 2.29 %                 |
+| **TOTAL**                             | 90.24 %                |
+
 
 
 
@@ -111,7 +114,21 @@ Ejercicios de ampliación
   Entre las posibles mejoras, puede escoger una o más de las siguientes:
 
   * Técnicas de preprocesado: filtrado paso bajo, diezmado, *center clipping*, etc.
+
+  Filtro Paso Bajo
+
+  ![alt text](Image/PBajo.png)
+
+
+
   * Técnicas de postprocesado: filtro de mediana, *dynamic time warping*, etc.
+
+
+  Filtro de Mediana
+
+  ![alt text](Image/FMediana.png)
+
+  
   * Métodos alternativos a la autocorrelación: procesado cepstral, *average magnitude difference function*
     (AMDF), etc.
   * Optimización **demostrable** de los parámetros que gobiernan el estimador, en concreto, de los que
