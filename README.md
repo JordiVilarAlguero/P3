@@ -81,6 +81,7 @@ Ejercicios de ampliación
 
   * Inserte un *pantallazo* en el que se vea el mensaje de ayuda del programa y un ejemplo de utilización
     con los argumentos añadidos.
+    
     Así queda nuestro mensaje de ayuda una vez se manda a llamar en línea de comandos.
     ![alt text](Image/img6.png)
 
