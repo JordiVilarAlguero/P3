@@ -78,11 +78,12 @@ Ejercicios básicos
 | **Metric**                            | **Value**              |
 |---------------------------------------|------------------------|
 | **Num. frames**                       | 11200 = 7045 unvoiced + 4155 voiced |
-| **Unvoiced frames as voiced**         | 198/7045 (2.81 %)      |
-| **Voiced frames as unvoiced**         | 744/4155 (17.91 %)     |
-| **Gross voiced errors (+20.00 %)**    | 25/3411 (0.73 %)       |
-| **MSE of fine errors**                | 2.01 %                 |
-| **TOTAL**                             | 88.72 %                |
+| **Unvoiced frames as voiced**         | 172/7045 (2.44 %)      |
+| **Voiced frames as unvoiced**         | 755/4155 (18.17 %)     |
+| **Gross voiced errors (+20.00 %)**    | 23/3400 (0.68 %)       |
+| **MSE of fine errors**                | 1.99 %                 |
+| **TOTAL**                             | 88.87 %                |
+
 
 
 
